@@ -1,3 +1,3 @@
 # ASP.NET 5 Dockerfile
 
-This repository container a `Dockerfile` definition for building an ASP.NET 5 image running CoreCLR 1.0.0-rc1-update1. This file is basen on the [preview docker image provided by Microsoft](https://github.com/aspnet/aspnet-docker) and adds git, npm, bower and yeoman to the image.
+This repository contains a `Dockerfile` definition for building an ASP.NET 5 image running CoreCLR 1.0.0-rc1-update1. This file is basen on the [preview docker image provided by Microsoft](https://github.com/aspnet/aspnet-docker) and adds git, npm and bower to the image.

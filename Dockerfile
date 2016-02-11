@@ -41,6 +41,5 @@ ENV PATH $PATH:$DNX_USER_HOME/runtimes/default/bin
 RUN apt-get -qq update && apt-get -qqy install nodejs npm git && rm -rf /var/lib/apt/lists/*
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN npm install -g bower
-RUN npm install -g yo
 
 RUN echo '{"allow_root": true}' > /root/.bowerrc
